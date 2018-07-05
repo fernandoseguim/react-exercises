@@ -8,7 +8,7 @@ module.exports = {
     entry: './ex/index.jsx',
     output: {
         path: path.join(__dirname, 'public'),
-        filename: './bundle.jsx'
+        filename: './bundle.js'
     },
     devServer: {
         port: 8080,
